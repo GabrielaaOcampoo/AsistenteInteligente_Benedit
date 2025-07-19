@@ -1,0 +1,360 @@
+{
+  "intents": [
+    {
+            "tag": "saludo",
+            "patterns": [
+                "Hola Benedit",
+                "hey amigo",
+                "Buenas tardes amigo Benedit",
+                "Qué tal",
+                "Cómo estás Benedit",
+                "Buenas noches amigo Benedit",
+                "Buenas días amigo Benedit",
+                "Qué tal Benedit",
+                "Hello Benedit",
+                "Es un gusto conversar contigo Benedit",
+                "Cómo estás Benedit",
+                "Buenas tardes amigo Benedit"
+            ],
+            "responses": [
+        "¡Hola! Benedit esta listo para ayudarte en todo momento. Gracias por saludar.",
+
+        "¡Hey! Qué gusto saludarte {nombre}. ¿Cómo estás tú? Benedit te escucha con atención {nombre}",
+
+        "¡Holisss! Espero que estés teniendo una jornada estupenda, Benedit agradece el cariño 😉. Pero cuentame que tal te sientes?",
+
+        "¡Muy bien, gracias por preguntar {nombre}! ¿Cómo estás tú? Puedes contarselo a Benedit",
+
+        "Estoy muy bien {nombre}, gracias 😊 Me alegra que lo preguntes. ¿Y tú cómo estás? Benedit esta listo para escucharte"
+      ]
+        },
+    {
+            "tag": "ansiedad",
+            "patterns": [
+                "Tengo una sensación de inquietud interior.",
+                "Me siento muy nervioso",
+                "mi mente está agotada mentalmente",
+                "Tengo mucha presión y siento un gran peso emocional.",
+                "Siento un malestar interior que me abruma.",
+                "Tengo mucho miedo y me siento mal"
+
+
+            ],
+            "responses": [
+                "Lo siento mucho, {nombre}. Tener la mente agotada es una señal clara de que tu cuerpo y tus emociones necesitan un respiro.\n\nTe propongo algo sencillo:\nColoca una mano en tu pecho y otra en tu abdomen.\nInhala contando hasta 3, sintiendo cómo se eleva el abdomen.\nExhala contando hasta 5, y suelta tensión al hacerlo. Hazlo 3 veces seguidas, lentamente.\nTe ayudará a reconectar con tu cuerpo y bajar el ritmo mental. Estas emociones son válidas.\nBuscar apoyo psicológico no significa debilidad, sino cuidado personal. Dame un segundo, te mostraré algo, esto podría ser justo lo que necesitas 😊.",
+
+
+                "🌸 Gracias por expresarlo, {nombre}. Sentirte así no es un fallo, es una señal de que estás cargando con demasiado.\n\nHaz conmigo este pequeño ejercicio:\nMira a tu alrededor y nombra en voz baja:\n5 cosas que ves, 4 que puedes tocar, 3 que escuchas, 2 que hueles y 1 que saboreas o recuerdas.\nEste ejercicio te trae al presente, algo fundamental cuando la mente va muy rápido.\nRecuerda: sentirte mal no te hace débil, te hace humano. Si esto te pasa a menudo, hablar con un profesional puede ayudarte más de lo que imaginas.\nDame un momento, te voy a mostrar algo que puede ayudarte ahora mismo ✨ .",
+
+                "🌿 Comprendo cómo te sientes, {nombre}. Estar bajo presión constante agota incluso a las personas más fuertes.\n\nVamos a probar esto juntos:\nCierra los ojos un instante.\nInhala profundo y al exhalar, repite mentalmente:\n“Estoy haciendo lo mejor que puedo.”\n“Este momento pasará.”\nHazlo durante un minuto, sin forzarte. Es una técnica de respiración y validación emocional que puede ayudarte a sentirte un poco más estable.\nRecuerda: pedir ayuda es un acto de valentía.\nDame un segundo, te voy a mostrar algo visual que puede servirte en este momento 😊.",
+
+                "🌸 Lo que estás sintiendo, {nombre}, no es raro ni exagerado. El malestar interior puede aparecer cuando has estado sosteniendo demasiado por dentro.\n\n¿Probamos algo simple?\nPon una mano sobre tu pecho, respira profundo, y al soltar el aire di en voz baja:\n“Merezco sentirme en paz.”\nHazlo 3 veces. Esta afirmación, junto con la respiración, puede ayudarte a calmar esa carga emocional.\nY si esto se vuelve frecuente, hablar con alguien profesional puede darte herramientas muy útiles.\nDame un momento, te enseñaré algo que puede ayudarte justo ahora ✨.",
+
+                "🌿 Siento mucho que estés pasando por esto, {nombre}. Cuando la mente está saturada y el cuerpo lo refleja, es momento de parar y cuidar de ti ✨.\n\nTe sugiero un ejercicio muy eficaz:\nRespira en 4 tiempos – Mantén el aire 4 – Exhala en 4 – Pausa 4.\nEs la técnica de respiración cuadrada. Hazlo 4 veces seguidas.\nEsto ayuda a tu sistema nervioso a calmarse de forma natural.\nNo estás solo. Y si este estado se repite a menudo, hablar con un terapeuta puede darte alivio y claridad.\nDame un instante, te voy a mostrar algo visual que puede ayudarte justo ahora."
+
+            ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=1iHm7Ogm7QU",
+      "title": "Crisis de ansiedad: ¿Qué hacer?"
+       },
+    {
+      "url": "https://www.youtube.com/watch?v=1iHm7Ogm7QU",
+      "title": "Libro ”Resetea tu mente” de Mario Alonso Puig | Presentación en la Fundación Rafael del Pino"
+    }
+  ]
+},
+        
+        {
+            "tag": "tristeza",
+            "patterns": [
+                "me siento triste",
+                "estoy deprimido",
+                "me siento apagado",
+                "no encuentro sentido a nada",
+                "estoy llorando sin control",
+                "me siento muy apagado",
+                "Últimamente me cuesta encontrar motivación o alegría.",
+                "Siento que todo me pesa demasiado últimamente.",
+                "Me siento muy bajo de ánimo y sin fuerzas."
+            ],
+            "responses": [
+    "🟦 La tristeza también es una emoción válida, y no tienes que ocultarla {nombre}. A veces solo necesitas un espacio seguro para sentir.\n\n🧘‍♀️ Pausa compasiva (2 minutos):\nPon una mano sobre tu pecho.\nInhala profundo y suelta despacio.\nDi para ti: “Estoy haciendo lo mejor que puedo con lo que tengo”.\n\nPuedes escuchar alguna meditación suave o música tranquila. Y si esta sensación se repite, es importante hablar con alguien de confianza o buscar apoyo profesional. Te mostraré algo que puede ayudarte en este momento.",
+
+    "🌧️ Cuando todo parece gris, lo primero es no exigirte estar bien de inmediato.\n\n🎧 Pausa amable (2 minutos):\nSiéntate o recuéstate.\nCierra los ojos y respira profundamente.\nDeja que tu cuerpo se relaje sin forzar nada.\nRepite mentalmente: “Ahora mismo, solo respiro. Y eso está bien”.\n\nEn YouTube puedes buscar ‘meditación para momentos difíciles’. Si esto te está superando, no lo enfrentes solo/a. Hablar con alguien puede ayudarte más de lo que imaginas {nombre}. Dame un segundo, te mostraré algo, esto podría ser justo lo que necesitas.",
+
+    "🫂 Hay días que pesan más. Y no estás mal por sentirte así.\n\n🌿 Pausa reconectiva (2 minutos):\nApoya ambos pies en el suelo.\nSiente el contacto con la tierra.\nRespira y repite: “Este momento pasará. Me trato con cariño”.\n\nBuscar apoyo emocional no es debilidad. Es autocuidado. Si sientes que esto te sobrepasa, sería bueno conversar con alguien de confianza o un profesional que te escuche sin juicio. Ahora verás algo que creo que te hará bien.",
+
+    "Gracias por confiar en mí, {nombre}. Sentirse sin fuerzas o emocionalmente apagado puede pasarle a cualquiera, especialmente cuando se ha estado aguantando mucho.\n\nVamos a intentarlo así:\nHaz una respiración profunda y, al exhalar, imagina que sueltas parte del peso que llevas.\nRepite esto tres veces. A veces, un simple respiro puede abrir espacio para un poco de calma.\nRecuerda: no tienes que resolverlo todo hoy. Y pedir ayuda profesional puede ser una forma de empezar a sentirte mejor.\nDame un segundo, te voy a mostrar algo que podría ayudarte en este momento.",
+
+    "Lo que estás sintiendo, {nombre}, es completamente válido. A veces, el cansancio emocional se disfraza de desánimo o falta de motivación.\n\nPrueba esto:\nEscribe en una nota o en tu móvil tres cosas que hayas hecho hoy, aunque parezcan pequeñas.\nReconocer tus esfuerzos, incluso en días difíciles, es una forma de cuidar tu salud mental.\nY si estos días se hacen cada vez más frecuentes, hablar con un psicólogo puede ayudarte a ver las cosas con otra perspectiva.\nAhora te mostraré algo visual que puede acompañarte en este momento.",
+
+    "Siento mucho que estés pasando por este momento, {nombre}. Cuando el ánimo está bajo, hasta lo más simple puede parecer cuesta arriba.\n\nVamos paso a paso. Te sugiero este ejercicio:\nRespira profundo 3 veces y al soltar el aire, di: “Merezco sentirme mejor. Estoy haciendo lo que puedo.”\nEste tipo de afirmaciones, aunque breves, pueden ser un ancla para ti hoy.\nNo tienes que hacerlo todo ahora. Solo dar un pequeño paso.\nSi te sientes así con frecuencia, un profesional puede ayudarte a aliviar esta carga.\nDame un momento, voy a mostrarte algo visual que podría ayudarte ahora mismo.\nDame un segundo, te voy a mostrar algo visual que puede ayudarte en este momento."
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=TbrERKv_DB8",
+      "title": "Técnica Básica del Manejo Emocional Sano: Ser Consciente"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9kEUm9MpHO0",
+      "title": "Ira, miedo y culpa CÓMO SUPERAR ESTAS GRANDES LIMITACIONES | Mario Alonso Puig"
+    }
+  ]
+},
+        {
+            "tag": "estres",
+            "patterns": [
+                "estoy estresado",
+                "tengo muchas tareas",
+                "no puedo más",
+                "me siento nervioso",
+                "tengo la cabeza saturada",
+                "estoy al límite",
+                "tengo miedo al examen",
+                "siento mucha presión",
+                "estoy saturado",
+                "no me da la vida",
+                "me pongo muy nervioso antes de una entrega"
+
+            ],
+            "responses": [
+    "🟢 A veces, el cuerpo y la mente simplemente piden parar {nombre}. ¿Te parece si haces una pausa breve solo para ti?\n\n🌸 Pausa consciente (2 minutos):\nCierra los ojos.\nEscucha tu respiración.\nDeja que los pensamientos pasen sin engancharte.\nRepite mentalmente: “Estoy aquí, ahora”.\n\nPuedes encontrar guías en canales de YouTube como Escuela de la Atención Plena. Y si esta sensación se repite con frecuencia, sería bueno que puedas hablar con alguien de confianza o un profesional. Te mostraré algo visual, esto te puede servir mucho ahora, míralo con calma.",
+    
+    "🔵 Lo que estás sintiendo es más común de lo que parece {nombre}, y tiene solución. A veces, organizar tus tareas en pasos muy pequeños puede ayudarte a recuperar el control.\n\n📝 Intenta esto:\n- Elige una sola tarea.\n- Pon un temporizador de 15 minutos.\n- Haz solo eso, sin presionarte.\n\n💬 Repite: 'Estoy haciendo lo mejor que puedo'. Y recuerda: no estás solo/a. Espera un momento, te mostraré algo visual esto es para ti.",
+    
+    "🌿 {nombre} Tu mente necesita descanso tanto como tu cuerpo. No te exijas más de la cuenta. La ansiedad es una alarma, no una condena.\n\n👂 Pruébalo ahora:\n- Cierra los ojos.\n- Inhala profundo 3 veces.\n- Coloca una mano en el pecho y otra en el abdomen.\n- Siente cómo tu cuerpo responde.\n\nLuego, si te apetece, escucha una meditación o música suave. Tu paz también merece espacio en tu día. A continuación te mostraré algo visual. Esto te puede servir mucho ahora, míralo con calma.",
+
+    "Gracias por expresarlo, {nombre} 🤍. Nervios, presión o saturación son reacciones humanas ante exigencias fuertes. Reconocerlo es el primer paso para regularlo.\n\nTe propongo esto:\nCierra los ojos y di mentalmente: “Este momento no es eterno. Puedo manejarlo paso a paso.” Repite mientras respiras lento y profundo. Esta técnica de autodiálogo se utiliza en terapia cognitiva.\n\nSi estas emociones son frecuentes, no dudes en buscar acompañamiento profesional.\nEn breve te mostraré algo visual que puede ayudarte a calmar tu mente ahora mismo 🌤️.",
+
+    "Siento que estés pasando por esto, {nombre} 💭. La presión constante puede hacer que te sientas sin control, pero es posible recuperar equilibrio poco a poco.\n\n📝 Haz este ejercicio:\nToma papel o una nota en tu móvil y escribe tres cosas que hayas logrado hoy, aunque sean pequeñas. Reconocer tus avances es una estrategia usada en terapia para reducir el autoestrés.\n\nSi esta sensación es frecuente, un profesional puede ayudarte a gestionarla con herramientas específicas.\nAhora te mostraré algo visual que puede darte un momento de respiro 🌱.",
+
+    "Lo siento mucho, {nombre} 😞. Cuando todo parece demasiado, tu mente y tu cuerpo te están pidiendo una pausa. Sentirte así no es debilidad, es una señal de que necesitas cuidarte.\n\n🧘‍♀️ Prueba esta técnica profesional:\nRespira profundamente contando 4 segundos al inhalar, retén 4 segundos, exhala en 4 y espera otros 4. Repite este ciclo 3 veces. Esta respiración cuadrada ayuda a calmar el sistema nervioso.\n\nY si esto te ocurre con frecuencia, buscar ayuda profesional puede darte herramientas reales para afrontar esta etapa.\nDame un segundo, voy a mostrarte algo que podría ayudarte ahora mismo 🧩."
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=pDigD65kLpE",
+      "title": "Meditación Guiada para CALMAR LA MENTE en momentos difíciles"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9tlCztMbxl8",
+      "title": "REDUCE tu ESTRÉS al INSTANTE con este ejercicio | Dr. Mario Alonso Puig"
+    }
+  ]
+},
+        {
+            "tag": "desmotivacion",
+            "patterns": [
+                "no tengo ganas de estudiar",
+                "no tengo ganas de conectarme a clases",
+                "no quiero seguir en la U",
+                "estoy desmotivado",
+                "no consigo organizarme",
+                "estoy bloqueado",
+                "estoy colapsando",
+                "no me entra nada en la cabeza"
+
+            ],
+             "responses": [
+    "🌧️ Hay días en que todo pesa más, y está bien sentirse así {nombre}. No tienes que rendir al 100% todos los días.\n\n🧩 Prueba hacer una sola cosa pequeña hoy, sin presión. Algo como leer una página, preparar tu espacio o solo respirar hondo.\n\n✨ Repite: “No necesito hacerlo todo hoy. Solo dar un paso.” Tu valor no se mide por tu productividad. Dame un segundo, te mostraré algo, esto podría ser justo lo que necesitas. \n\n",
+    
+    "🔄 Sentirse bloqueado no significa que hayas fallado {nombre}. A veces es solo una señal de que necesitas cambiar el ritmo.\n\n📌 Intenta escribir en una hoja 3 cosas pequeñas que sí puedes hacer hoy. No importa lo simples que sean. Cumplir una sola puede darte un empujón de ánimo.\n\nTú puedes con esto, y no tienes que hacerlo perfecto. \n\nAhora verás algo que creo que te hará bien y te puede servir mucho ahora, míralo con calma.",
+    
+    "🧘‍♀️ La motivación no siempre viene antes de actuar {nombre}, a veces aparece cuando damos el primer paso, aunque sea pequeño.\n\n👣 Hoy solo intenta empezar con 5 minutos de algo que te acerque a tu objetivo. Aunque parezca poco, cuenta mucho. No subestimes ese gesto. Lo pequeño también construye.\n\n🎧 Puedes acompañarte con este vídeo breve para reconectar contigo {nombre}.",
+
+    "Lamento mucho que te sientas así, {nombre}. Colapsar es una forma en que el cuerpo grita que necesita pausa. No tienes que luchar contra eso ahora. Solo trata de estar presente, con amabilidad hacia ti mismo/a. \n\n🌱 Prueba este momento de contención: \nApoya los pies firmes en el suelo. \nPresiona suavemente tus manos entre sí durante 10 segundos. \nRepite mentalmente: “Estoy aquí. Respiro. Esto pasará.” A veces, solo sostenernos un momento ya es suficiente. \n\nA continuación, te mostraré algo visual. Esto te puede servir mucho ahora, míralo con calma.",
+
+    "Gracias por compartirlo, {nombre}. A veces, la mente se resiste a organizar cuando se siente abrumada. En lugar de buscar tener todo claro, puedes enfocarte en ordenar solo una parte. \n\n🌱 Prueba este “anclaje al control”: \nElige una sola tarea pequeña para este momento. \nPon un temporizador por 15 minutos. \nAl terminar, respira profundo y elige si seguir o parar. Organizar no es tener control total, sino saber por dónde empezar.\n\nAhora verás algo que creo que te hará bien."
+  ],
+"videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=a7fVLliG9kg",
+      "title": "¿Cómo enfrentarse y superar una ADVERSIDAD? Con Ney Díaz | Mario Alonso Puig"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LYntgGCP9yo",
+      "title": "El poder de las PALABRAS para TRANSFORMAR TU REALIDAD | Mario Alonso Puig"
+    }
+  ]
+},
+        {
+            "tag": "felicidad",
+            "patterns": [
+                "estoy feliz",
+                "estoy completamente feliz",
+                "me siento bien",
+                "todo va genial",
+                "todo va bien",
+                "me siento bien",
+                "hoy ha sido un buen día, me ha ido muy bien",
+                "me siento animado, me he organizado y ha salido todo bien",
+                "estoy motivado",
+                "tengo energía positiva y me siento feliz",
+                "estoy animado",
+                "todo salió perfecto"
+            ],
+            "responses": [
+    "🟡 ¡Qué alegría saberlo {nombre}! Mereces disfrutar de ese bienestar.\n\n🌟 Pausa de gratitud (2 minutos):\nCierra los ojos.\nRecuerda uno de los momentos más bonitos del día.\nSiente cómo te hizo sonreír o vibrar.\nRepite mentalmente: “Este momento también es parte de mí”.\n\nCelebrar lo bueno también es autocuidado. Y si puedes, ¡compártelo con alguien! Dame un segundo, te mostraré algo, esto podría ser justo lo que necesitas.",
+
+    "🌞 Tu bienestar es un regalo. Qué bonito que te sientas así {nombre}.\n\n🧘‍♀️ Pausa luminosa (2 minutos):\nRespira suave y profundo.\nConecta con tu cuerpo: ¿en qué parte sientes esa alegría?\nPermítete sonreír un poco más.\nDi: “Estoy en paz y agradezco este momento”.\n\nLa felicidad compartida se multiplica, ¡así que enhorabuena! A continuación te mostraré algo visual. Esto te puede servir mucho ahora, míralo con calma.",
+
+    "🎉 ¡Me encanta leerte así {nombre}! Estás viviendo un momento valioso.\n\n🪷 Pausa alegre (2 minutos):\nPonte cómodo/a.\nInhala, exhala, y saborea la calma.\nPiensa: “Estoy creando momentos que me hacen bien”.\n\nSi te apetece, puedes anotar lo que hoy funcionó, para recordarlo en los días nublados 🌈. Ahora verás algo que creo que te hará bien.",
+
+    "¡Enhorabuena, {nombre}! 🎈 Me encanta saber que todo salió perfecto y que te sientes bien contigo mismo. Eso también es parte del cuidado emocional.\n\n🌼 Haz este ejercicio:\nRespira profundo, sonríe, y piensa en una persona con quien te gustaría compartir esta alegría. Darle espacio a lo bueno también es una forma de crecer.\n\nAhora te mostraré algo visual para ayudarte a conservar esta buena vibra 🎨.",
+
+    "¡Qué alegría leerte así, {nombre}! ☀️ Sentirte animado y ver que todo salió bien es una señal de que estás en sintonía contigo mismo y con lo que te rodea.\n\n✨ Tómate un momento para reconocer tus logros:\nRespira profundo y repite en silencio: “Este momento es mío. Me lo he ganado.”\nSaborear los días buenos fortalece tu bienestar emocional.\n\nAhora te mostraré algo visual para que guardes esta energía positiva contigo un poco más 💫.",
+
+    "Me alegra muchísimo saber que estás con buena energía, {nombre} 🔋. Días así son un recordatorio de tu capacidad para avanzar, organizarte y disfrutar el proceso.\n\n🎯 Te propongo algo:\nCierra los ojos un segundo y di: “Estoy orgulloso de mí”.\nReforzar esa sensación fortalece tu autoestima.\n\nAhora te enseñaré algo visual para que lo celebres contigo mismo 🎉."
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=-L0A-bU-Kio",
+      "title": "Meditación guiada para un DÍA POSITIVO | Meditación 10 minutos Gabriela Litschi"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=n7xuKIhiZHI",
+      "title": "El poder de la GRATITUD y el PROPÓSITO EN LA VIDA con Ney Díaz | Mario Alonso Puig"
+    }
+  ]
+},
+        {
+  "tag": "desesperacion",
+  "patterns": [
+    "no puedo con esto",
+    "me rindo con la U",
+    "esto no es para mí",
+    "me quiero salir de la carrera",
+    "estoy perdiendo el control"
+  ],
+  "responses": [
+    "🛑 Sentirte sobrepasado no significa que hayas fallado {nombre}. Es solo una señal de que necesitas apoyo, no más exigencia.\n\n🧘‍♂️ Pausa de emergencia (2 minutos):\nHaz una pausa donde estés.\nApoya la mano sobre el corazón.\nRespira hondo y repite mentalmente: “Ahora mismo solo necesito calmarme”.\n\n📌 A veces no hay que tomar decisiones cuando estamos desbordados. Primero, calma. Luego, claridad. Si esta sensación persiste, por favor habla con alguien de confianza o un profesional.Ahora verás algo que creo que te hará bien {nombre}.",
+
+    "🔻 {nombre} Cuando todo parece demasiado, no estás solo/a. Este momento puede ser fuerte, pero no es eterno.\n\n🧩 Pausa restauradora (2 minutos):\nSiéntate con los pies en el suelo.\nHaz 3 respiraciones profundas.\nSiente el cuerpo apoyado, presente.\nRepite: “Puedo ir paso a paso. No tengo que decidir todo ahora”.\n\n🎓 Recuerda: muchas personas dudan de su carrera en algún momento. Está bien replantearse cosas, pero con calma y acompañamiento es mucho más sano. Ahora verás algo que creo que te hará bien.",
+
+    "🧠 La mente bajo estrés puede hacer que todo parezca imposible {nombre}. Pero eso no define tu capacidad real.\n\n🪷 Pausa consciente (2 minutos):\nCierra los ojos.\nSiente el aire entrar y salir.\nColoca una mano en el abdomen.\nDi: “Sigo aquí. Estoy respirando. Es suficiente por ahora”.\n\n🧑‍⚕️ Si esta angustia es recurrente o intensa, buscar apoyo profesional no es rendirse. Es una forma de empezar a recuperar el control de tu bienestar. A continuación te mostraré algo visual. Esto te puede servir mucho ahora, míralo con calma {nombre}.",
+
+    "Gracias por compartirlo, {nombre} 🙏. Dudar de tu camino o querer dejar la carrera no te convierte en un fracaso. Te convierte en alguien que se está haciendo preguntas importantes.\n\nTe propongo algo:\n📝 Escribe una lista de razones por las que quieres dejarlo y otra con lo que aún te hace dudar. Verlo claro en papel puede ayudarte más de lo que imaginas.\n\nSi esta sensación no desaparece, hablar con un profesional puede ayudarte a tomar decisiones desde la calma.\nAhora te compartiré algo que puede darte una pequeña pausa mental 🌤️.",
+
+    "Siento mucho que te sientas así, {nombre} 💭. Tener ganas de abandonar algo o sentir que todo se desborda no es raro, es humano.\n\nTe invito a hacer esto:\nVisualiza cómo te gustaría sentirte dentro de unos meses. ¿Qué tendría que cambiar para que eso sea posible? No necesitas tener todas las respuestas hoy, solo empezar a observar.\n\nSi te cuesta avanzar solo, buscar ayuda profesional puede ser el primer paso.\nEn breve, te mostraré un recurso que puede ayudarte a encontrar un poco de claridad 🌈."
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=9-IOMXpv7Ys",
+      "title": "Meditación guiada MINDFULNESS de 10 minutos - Reduce tu Estrés y Ansiedad"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oQq5Y7oX98Q",
+      "title": "Cómo descubrir tu PROPÓSITO VITAL | Conversaciones con Mario Alonso Puig"
+    }
+  ]
+},
+{
+  "tag": "confusion_vocacional",
+  "patterns": [
+    "no sé si esta carrera es para mí",
+    "me siento perdido con lo que estudio",
+    "ya no me convence lo que elegí",
+    "dudo si seguir con la universidad",
+    "siento que esto no es lo mío",
+    "Cada vez me cuesta más ver un futuro en lo que estoy haciendo.",
+    "Estoy empezando a pensar que esta no es mi vocación.",
+    "No me siento conectado con lo que estoy estudiando.",
+    "Estoy perdiendo el interés por lo que antes me motivaba."
+  ],
+  "responses": [
+    "📚 Sentirse confundido sobre la carrera es más común de lo que parece {nombre}, especialmente cuando llevas tiempo esforzándote. Cuestionar no es fallar, es crecer.\n\n🌿 Pausa reflexiva (2 minutos):\nRespira profundo.\nCierra los ojos.\nPiensa en lo que te motivó al comenzar esta carrera.\nRepite: “Estoy permitiéndome revisar mi camino. No tengo que tener todas las respuestas hoy”.\n\nHabla con un tutor, un orientador o alguien que haya pasado por lo mismo. A veces, una charla ilumina lo que la mente en bucle no aclara sola. A continuación te mostraré algo visual. Esto te puede servir mucho ahora, míralo con calma {nombre}.",
+    
+    "🗨️ “Ese sentimiento puede doler mucho, {nombre}, sobre todo cuando has invertido tiempo y esfuerzo. Pero también es una oportunidad para escucharte de verdad. ¿Estás sintiendo que ‘esto no es lo tuyo’ por falta de conexión real con la carrera… o por cansancio, presión externa o expectativas ajenas?” \n\n🔍 Preguntas para reflexionar: \n¿Qué me haría ilusión aprender o hacer, sin pensar en el “debería”? ¿Cómo me sentiría si cambiara de rumbo? \n¿Aliviado o más inseguro aún? 👉 No tienes que tener la respuesta hoy, pero mereces darte permiso para explorarla sin culpa. \n\nAhora verás algo que creo que te hará bien {nombre}.",
+
+    "🗨️ “Gracias por ser tan honesto/a, {nombre} ✨. Dudar forma parte del proceso de crecer y tomar decisiones importantes. No es un signo de debilidad, sino de consciencia. \n\nEn vez de forzarte a decidir ahora mismo, podrías preguntarte: \n¿Qué me llevó a elegir esta carrera al principio? \n¿Sigo conectando con ese motivo? \n¿Qué me pesa más: la carrera o cómo la estoy viviendo?” \n\n🌱 A veces, no es necesario dejarlo todo, sino ajustar el ritmo o replantear el camino. Y hablar con un orientador vocacional o un profesional puede darte más claridad sin presión. \nNo se trata de abandonar por debilidad, sino de avanzar hacia lo que te hace sentido. Y si decides continuar, hazlo por ti. Si decides pausar o cambiar, también está bien. No hay un solo camino correcto, hay caminos que se ajustan mejor a ti {nombre}. \nAhora te mostraré algo visual, esto podría ser justo lo que necesitas.",
+
+    "✨Gracias por compartir lo que sientes, {nombre}. Dudar sobre tu camino es una parte natural del proceso, y no significa que estés fallando.\n\nHaz una pausa y escribe en algún lugar: ¿Por qué empecé esto? ¿Qué me gustaría lograr a largo plazo?\nNo tienes que tener todas las respuestas hoy. Reflexionar desde la calma puede darte claridad.\nY si estas dudas persisten, hablar con un orientador o terapeuta puede ayudarte a tomar una decisión más consciente. \nAhora te mostraré algo visual, esto podría ser justo lo que necesitas..✨",
+
+    "Lo que estás sintiendo, {nombre}, es más común de lo que parece. Sentirse perdido o desconectado del camino elegido no es un error, es una señal para parar y escuchar.\n\nPrueba esto:\nHaz una lista de lo que te gusta, lo que no te gusta, y lo que te frustra del camino que estás recorriendo.\nVerlo por escrito puede ayudarte a entender mejor tus emociones y necesidades.\nSi te cuesta hacerlo solo, un profesional puede acompañarte sin juzgarte.\nDame un instante, te enseñaré algo visual que puede ayudarte ahora. ",
+
+    "Lo siento mucho, {nombre} 💭. Sentirse desconectado de algo que antes te motivaba puede ser confuso y doloroso, pero es una señal válida de que algo dentro de ti está cambiando.\n\n📝 Te propongo algo sencillo:\nHaz una lista corta: ¿Qué aspectos de lo que estás haciendo te generan incomodidad? ¿Qué partes aún podrían tener valor para ti?\nEste ejercicio puede ayudarte a distinguir entre lo que puedes ajustar y lo que tal vez necesita un nuevo enfoque.\n\nRecuerda: no estás fallando, estás evolucionando 🌱.\nAhora verás algo que creo que te hará bien.✨👀.",
+
+    "Lo que estás sintiendo, {nombre}, no es raro 🧠. A veces lo que elegimos deja de tener sentido cuando cambiamos internamente.\n\n📄 Prueba esto:\nEscribe tres razones por las que empezaste este camino y tres razones por las que hoy te sientes desconectado.\nCompararlas puede darte pistas muy claras sobre lo que ha cambiado.\n\nReflexionar desde la calma es una forma de cuidar tu bienestar 🌿.\nSi necesitas apoyo para tomar decisiones, hablar con un profesional puede hacer una gran diferencia 🙌.\nDame un segundo, te voy a mostrar algo visual que puede ayudarte en este momento 👇."
+   ],
+ "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=CLCJaiyjKkc",
+      "title": "Cómo conectar con tu propósito y levantarte cada mañana con ilusión | Sebastián Lora | TEDxArxiduc"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IOyGoIovLNg",
+      "title": "¿Cómo Encontrar tu VOCACIÓN?"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AT42GOaSbAs",
+      "title": "Bot: ¿qué carrera debo seguir? | Ivannia Arroyo | TEDxPuraVidaJove"
+    }
+  ]
+},
+{
+  "tag": "aburrimiento_academico",
+  "patterns": [
+    "me aburro en clase",
+    "no me interesa lo que estoy viendo",
+    "todo es muy repetitivo",
+    "no tengo ganas de seguir estudiando esto",
+    "siento que la universidad esta acabando con mi vocación genuina por la tecnología",
+    "esto no me motiva nada",
+    "estoy muy bajoneado, siento que no puedo más con la U"
+  ],
+  "responses": [
+    
+    "🌀 El aburrimiento puede ser una señal de que tu mente necesita un nuevo enfoque, no que seas {nombre} o poco capaz.\n\n🧘‍♀️ Pausa de activación (2 minutos):\nLevántate y estira los brazos.\nHaz 3 respiraciones profundas.\nPiensa: “¿Hay alguna forma distinta de aprender esto?”\n\nA veces, cambiar de método (vídeo, podcast, grupo de estudio) puede renovar el interés. Otras veces, vale la pena revisar si necesitas reorientar parte del camino. Ambos casos son válidos. A continuación, te mostraré algo visual. Esto te puede servir mucho ahora, míralo con calma.",
+
+    " “Es completamente entendible que te sientas frustrado/a si el aprendizaje se ha vuelto monótono. Cuando el contenido no estimula ni desafía, es natural desconectarse. Tal vez no es que hayas perdido el interés, sino que necesitas nuevas formas de vincularte con lo que estudias.” \n\n🌱 ¿Has probado aplicar lo que aprendes en algún proyecto personal, curso externo, práctica libre o comunidad online? A veces el sistema universitario no muestra toda la riqueza del campo, pero eso no significa que no esté ahí.\n\nAhora verás algo que creo que te hará bien.",
+
+    "🗨️ “Cuando ya no hay motivación, es momento de detenerse y observar, no de culparse. Tal vez no estás en el lugar equivocado, pero sí en la forma equivocada de vivirlo. ¿Te gustaría explorar qué cosas sí te despiertan curiosidad o ganas últimamente, incluso fuera de la universidad?” \n\n📌 La motivación no siempre es constante. A veces se apaga por cansancio, exigencia o falta de conexión. Redescubrirla requiere tiempo, pausa y, a veces, volver al origen: ¿para qué empezaste esto? ¿Qué soñabas hacer? \n✨ Tu vocación no depende de un título, sino de lo que haces con lo que sabes. A veces, para proteger tu pasión, hay que ajustar el camino, no abandonar el destino. \n\nAhora verás algo que creo que te hará bien.",
+
+    "🧭 A veces, la estructura académica puede desconectarte de lo que originalmente te apasionaba. No estás solo/a {nombre} si sientes que lo que antes te ilusionaba hoy se siente pesado o lejano.\n\n🔄 Pausa de reconexión (2 minutos):\nCierra los ojos.\nPiensa en el momento en que descubriste tu gusto por la tecnología.\nRecuerda cómo te hacía sentir aprender por pura curiosidad.\nRepite: “Mi vocación sigue viva, aunque hoy esté cansada. Puedo reencontrarla a mi manera”.\n\nTal vez no se trata de rendirse, sino de encontrar formas más humanas, libres o creativas de vincularte con lo que amas. Hablar con alguien que comparta tu pasión o hacer un proyecto personal por gusto puede reavivar esa chispa. Ahora verás algo que creo que te hará bien. Ahora te mostraré algo visual, esto podría ser justo lo que necesitas..",
+
+    "Gracias por abrirte, {nombre} 💬. Estar desmotivado no significa que hayas perdido el rumbo, sino que quizás necesitas hacer una pausa para reconectar con tus verdaderos motivos.\n\n📝 Te propongo esto:\nEscribe una lista con tres cosas que te hicieron elegir este camino. Luego, anota qué parte de ti necesita más atención ahora.\nEste ejercicio es usado en psicología para reconectar con el propósito.\n\nY si necesitas claridad, hablar con un profesional puede ayudarte a ver con otros ojos lo que estás viviendo.\nTe mostraré algo visual que puede ayudarte a recuperar el foco con suavidad 🧠.",
+
+    "Siento mucho que te sientas así, {nombre} 💭. Cuando la presión académica supera tus límites, lo que amas puede empezar a doler. Pero eso no borra tu talento ni tus ganas.\n\n🌬️ Vamos paso a paso:\nRespira profundo, coloca una mano en tu pecho y otra en tu abdomen. Inhala contando hasta 3 y exhala en 5. Hazlo 3 veces.\nEste ejercicio ayuda a calmar el sistema nervioso y a reconectar con el presente.\n\nY si esta sensación se mantiene, un profesional puede ayudarte a encontrar un camino más amable contigo mismo.\nDame un segundo, quiero mostrarte algo visual que puede ayudarte a respirar con más claridad ✨."
+
+
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=QD-zwXc3dtQ",
+      "title": "Cómo aplicar el Active Recall? La mejor técnica de estudio, según la ciencia"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KJRXEU225SE",
+      "title": "Técnica para RETENER fácilmente todo lo que ESTUDIAS (y a largo plazo)"
+    }
+  ]
+},
+{
+  "tag": "despedida",
+  "patterns": [
+    "gracias",
+    "muchas gracias amigo",
+    "me ayudaste mucho",
+    "nos vemos",
+    "hasta luego",
+    "cuídate",
+    "chao",
+    "Bye amigo Benedit, te agradezco",
+    "adiós",
+    "Muchas gracias Benedit",
+    "te hablaré luego",
+    "me despido"
+  ],
+  "responses": [
+    "🌟 Gracias a ti por confiar en este espacio, {nombre}. Recuerda que aquí estaré siempre que necesites parar, pensar o simplemente respirar un poco. ¡Cuídate mucho! Y si en algún momento sientes que la carga es muy grande, no dudes en buscar apoyo profesional: es un acto de valentía, no de debilidad.",
+    
+    "🤍 Me alegra haber podido acompañarte, aunque sea un ratito. Vuelve cuando quieras. Y no olvides: lo que sientes importa, y tu bienestar también. Ya que en situaciones graves siempre se recomienda acompañamiento profesional, es importante que lo tengas en cuenta si lo necesitas.",
+    
+    "👋 Hasta pronto, {nombre}. Ojalá que el resto del día te regale al menos un momento bonito. Aquí siempre habrá un espacio para ti cuando lo necesites. Y recuerda: si las emociones se vuelven demasiado intensas o difíciles de gestionar, hablar con un profesional puede marcar la diferencia."
+  ]
+}
+
+
+
+  ]
+}

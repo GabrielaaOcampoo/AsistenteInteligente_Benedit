@@ -1,0 +1,16 @@
+Inicio de sesión de Evelyn - Semestre: Segundo, Paralelo: B
+2025-07-14 20:11:51
+==================================================
+Usuario: Estoy estresada y no tengo ganas de estudiar
+Asistente: Gracias por compartirlo, Evelyn. A veces, la mente se resiste a organizar cuando se siente abrumada. En lugar de buscar tener todo claro, puedes enfocarte en ordenar solo una parte. 
+
+🌱 Prueba este “anclaje al control”: 
+Elige una sola tarea pequeña para este momento. 
+Pon un temporizador por 15 minutos. 
+Al terminar, respira profundo y elige si seguir o parar. Organizar no es tener control total, sino saber por dónde empezar.
+
+Ahora verás algo que creo que te hará bien.
+------------------------------
+Usuario: & C:/Users/ofercompu/miniconda3/envs/asistente310/python.exe c:/Users/ofercompu/Documents/PYTHON/Chatbot4/main.py
+Asistente: 🌟 Gracias a ti por confiar en este espacio, Evelyn. Recuerda que aquí estaré siempre que necesites parar, pensar o simplemente respirar un poco. ¡Cuídate mucho! Y si en algún momento sientes que la carga es muy grande, no dudes en buscar apoyo profesional: es un acto de valentía, no de debilidad.
+------------------------------
